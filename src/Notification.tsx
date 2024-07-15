@@ -12,7 +12,7 @@ import noavat from '@/assets/image-chess.webp'
 const Notification = () => {
   const [read, setread] = useState(false)
   return (
-    <div className="bg-white lg:w-[60%] my-10 mx-auto text-[16px] ">
+    <div className="bg-white lg:w-[60%] my-10 mx-auto text-[16px] font-[roboto] ">
       <section className="">
         <div className="flex justify-between text-white p-4">
           <h1 className="text-[#2A292F] font-extrabold">
